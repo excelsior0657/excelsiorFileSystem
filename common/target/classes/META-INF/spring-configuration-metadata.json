@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "swagger.config",
+      "type": "com.ss.config.Knife4jConfig",
+      "sourceType": "com.ss.config.Knife4jConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "swagger.config.base-package",
+      "type": "java.lang.String",
+      "sourceType": "com.ss.config.Knife4jConfig"
+    }
+  ],
+  "hints": []
+}

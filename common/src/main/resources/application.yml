@@ -1,0 +1,3 @@
+swagger:
+  config:
+    base-package: com.ss.controller

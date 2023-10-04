@@ -1,0 +1,14 @@
+server:
+  port:
+    9000
+swagger:
+  config:
+    base-package: com.ss.controller
+meta:
+  chunk-size: 16000000
+  chunk-instance-count: 2
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/meta

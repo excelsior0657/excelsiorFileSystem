@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "meta",
+      "type": "com.ss.config.MetaConfig",
+      "sourceType": "com.ss.config.MetaConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "meta.chunk-instance-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ss.config.MetaConfig"
+    },
+    {
+      "name": "meta.chunk-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ss.config.MetaConfig"
+    },
+    {
+      "name": "meta.use-https",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.ss.config.MetaConfig"
+    }
+  ],
+  "hints": []
+}

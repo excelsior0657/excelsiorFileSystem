@@ -1,0 +1,15 @@
+
+client:
+  meta-server-host: http://127.0.0.1
+  meta-server-port: 9000
+
+swagger:
+  config:
+    base-package: com.ss.controller
+server:
+  port: 7000
+spring:
+  servlet:
+    multipart:
+      max-file-size: 1GB
+      max-request-size: 1GB

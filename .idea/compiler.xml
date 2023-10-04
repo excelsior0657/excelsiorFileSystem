@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client" />
+        <module name="common" />
+        <module name="meta" />
+        <module name="discovery" />
+        <module name="chunk-server" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="chunk-server" options="-parameters --add-modules java.base" />
+      <module name="client" options="-parameters --add-modules java.base" />
+      <module name="common" options="-parameters --add-modules java.base" />
+      <module name="discovery" options="-parameters --add-modules java.base" />
+      <module name="efs" options="-parameters" />
+      <module name="meta" options="-parameters --add-modules java.base" />
+    </option>
+  </component>
+</project>

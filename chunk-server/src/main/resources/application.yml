@@ -1,0 +1,12 @@
+server:
+  port: 9002
+discovery:
+  service-id: chunk-server
+  server-host: http://127.0.0.1
+  server-port: 9000
+  schema: http
+swagger:
+  config:
+    base-package: com.ss.controller
+chunk:
+  work-space: E:/data/develop/efs/

@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "discovery",
+      "type": "com.ss.config.DiscoveryConfig",
+      "sourceType": "com.ss.config.DiscoveryConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "discovery.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.ss.config.DiscoveryConfig"
+    },
+    {
+      "name": "discovery.server-host",
+      "type": "java.lang.String",
+      "sourceType": "com.ss.config.DiscoveryConfig"
+    },
+    {
+      "name": "discovery.server-port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ss.config.DiscoveryConfig"
+    },
+    {
+      "name": "discovery.service-id",
+      "type": "java.lang.String",
+      "sourceType": "com.ss.config.DiscoveryConfig"
+    }
+  ],
+  "hints": []
+}

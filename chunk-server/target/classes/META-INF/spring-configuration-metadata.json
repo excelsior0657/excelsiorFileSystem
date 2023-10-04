@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "chunk",
+      "type": "com.ss.config.ChunkConfig",
+      "sourceType": "com.ss.config.ChunkConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "chunk.work-space",
+      "type": "java.lang.String",
+      "sourceType": "com.ss.config.ChunkConfig"
+    }
+  ],
+  "hints": []
+}

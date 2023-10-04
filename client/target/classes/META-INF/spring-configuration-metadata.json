@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "client",
+      "type": "com.ss.config.ClientConfig",
+      "sourceType": "com.ss.config.ClientConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "client.meta-server-host",
+      "type": "java.lang.String",
+      "sourceType": "com.ss.config.ClientConfig"
+    },
+    {
+      "name": "client.meta-server-port",
+      "type": "java.lang.String",
+      "sourceType": "com.ss.config.ClientConfig"
+    }
+  ],
+  "hints": []
+}
