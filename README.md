@@ -7,6 +7,29 @@
 
 本系统采用Google的GFS的架构思想，按照一个元数据中心，多个分片服务，多个客户端进行设计
 
+### 项目所用技术栈：（作为手写分布式存储系统，固然少使用现成的框架与技术，尽可能采用手写的形式来完成系统开发）
+1. SpringBoot
+
+2. SpringData
+
+3. SpringSchedule
+
+4. MongDB
+
+### 功能架构：
+1. 项目工程化
+
+2. 自定义服务注册与发现
+
+3. 大文件的快速上传与下载
+
+4. 文件服务器容错保障
+
+### 服务注册设计：
+Meta元数据中心兼任注册中心一职，chunk-server需要在启动后向Meta中心注册，以便Meta中心进行文件分片存储位置分配
+
+chunk-server定期发送心跳（server info）到Meta服务，以确保chunk-server可用。Meta定期检查chunk-server是否存活。如果Meta检查到chunk-server上次发送心跳与此时时间间隔过大，则认为该chunk-server已经宕机
+
 #### 元数据设计：
 
 1. 文件名
